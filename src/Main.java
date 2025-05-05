@@ -73,19 +73,20 @@ public class Main {
 
         System.out.println("Task 4");
         for (int i = 0; i < smallBox.length; i++) {
-            if ( smallBox[i] % 2 != 0) {
+            if (smallBox[i] % 2 != 0)
                 smallBox[i]++;
-            }
-            if (i == smallBox.length - 1) {
-                System.out.println(smallBox[i]);
-                break;
-            }
-            System.out.print(smallBox[i] + ", ");
-
         }
+        System.out.println(Arrays.toString(smallBox) + " ");
     }
-
 }
+
+
+
+
+
+
+
+
 
 
 
